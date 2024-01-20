@@ -1,5 +1,5 @@
 {
-  "name": "noblox.js",
+  "name": "noblox.js-joingroup",
   "version": "4.15.1",
   "description": "A Node.js API wrapper for Roblox.",
   "main": "lib/index.js",
