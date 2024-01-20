@@ -65,6 +65,6 @@ jobs:
       - name: Create Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_JOINGROUP_TEST }}
         run: |
           npx auto shipit
